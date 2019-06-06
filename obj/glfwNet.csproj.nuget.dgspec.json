@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ykafia\\Documents\\projects\\glfwNet\\glfwNet.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ykafia\\Documents\\projects\\glfwNet\\glfwNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ykafia\\Documents\\projects\\glfwNet\\glfwNet.csproj",
+        "projectName": "glfwNet",
+        "projectPath": "C:\\Users\\ykafia\\Documents\\projects\\glfwNet\\glfwNet.csproj",
+        "packagesPath": "C:\\Users\\ykafia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ykafia\\Documents\\projects\\glfwNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ykafia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NETCore.Platforms": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0-preview5.19224.8, )",
+              "autoReferenced": true
+            },
+            "glfw": {
+              "target": "Package",
+              "version": "[3.3.0.1, )"
+            },
+            "glfw-net": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "skiasharp": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": [
+            "Microsoft.NETCore.App"
+          ]
+        }
+      }
+    }
+  }
+}
